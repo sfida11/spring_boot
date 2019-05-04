@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coltware.spring.sample.SampleApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-04T02:41:40" hostname="seirotauyanoMBP" time="0.236">
+  <properties/>
+  <testcase name="contextLoads" classname="com.coltware.spring.sample.SampleApplicationTests" time="0.236"/>
+  <system-out><![CDATA[INFO  SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.coltware.spring.sample.SampleApplicationTests], using SpringBootContextLoader
+INFO  AbstractContextLoader - Could not detect default resource locations for test class [com.coltware.spring.sample.SampleApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.coltware.spring.sample.SampleApplicationTests]: SampleApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.coltware.spring.sample.SampleApplication for test class com.coltware.spring.sample.SampleApplicationTests
+INFO  SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+INFO  SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1c632c42, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@12107675, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@34b12efe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@83e5062, org.springframework.test.context.support.DirtiesContextTestExecutionListener@dba7c1b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1c880007, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21730bb6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5bb4e2ba, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5300773, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5964b7ea]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+INFO  SampleApplicationTests - Starting SampleApplicationTests on seirotauyanoMBP with PID 55206 (started by tatsuyashoji in /Users/tatsuyashoji/@tatsu/11.Program/STS/workspace-3.9.4/spring_boot_part2)
+INFO  SampleApplicationTests - No active profile set, falling back to default profiles: default
+INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  SampleApplicationTests - Started SampleApplicationTests in 2.561 seconds (JVM running for 3.794)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
